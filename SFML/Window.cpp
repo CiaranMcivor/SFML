@@ -4,7 +4,7 @@
 
 Window::Window()
 {
-	Setup("Window", sf::Vector2u(640, 480));
+	Setup("Window", sf::Vector2u(800, 600));
 }
 
 Window::Window(const std::string& l_title, const sf::Vector2u& l_size)
